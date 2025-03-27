@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Bem-vindo ao Meu Site</h1>
+        <nav>
+            <a href="#">Início</a> | 
+            <a href="#">Sobre</a> | 
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- Seção de Login -->
+    <section>
+        <h2>Faça seu Login</h2>
+        <p>Entre com seu usuário e senha para acessar o sistema.</p>
+        <form action="login.php" method="POST">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+            <button type="submit">Entrar</button>
+        </form>
+        <p>Não tem uma conta? <a href="#">Cadastre-se aqui</a>.</p>
+    </section>
+
+    <hr>
+
+    <!-- Seção de informações adicionais -->
+    <section>
+        <h2>Por que se registrar?</h2>
+        <p>Ao criar uma conta, você terá acesso a conteúdos exclusivos, suporte e muito mais!</p>
+        <ul>
+            <li>Acesso a conteúdos premium</li>
+            <li>Suporte 24/7</li>
+            <li>Comunidade ativa</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
